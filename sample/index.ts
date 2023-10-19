@@ -1,0 +1,10 @@
+import pkg from 'package';
+import namespacePackage from '@namespace/package';
+import { namedImport } from 'module';
+import type { NamedType } from 'types';
+import * as All from 'all-import';
+import def, { named } from 'mixed';
+import { original as renamed } from 'rename-import';
+export * from 'export-all';
+export { namedExport } from 'export-named';
+import('async').then(() => {});
